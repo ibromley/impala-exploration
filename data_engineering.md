@@ -12,3 +12,9 @@ docker run --hostname=quickstart.cloudera --privileged=true -t -i \
 cloudera/quickstart /usr/bin/docker-quickstart
 ```
 Additional exercises should be in the respective folders.
+
+|Services | Port |
+|---------|------|
+|Cloudera Home| 80 |
+|Hue | 8888|
+|HDFS Name Node | 50070|
